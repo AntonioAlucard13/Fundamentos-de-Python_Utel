@@ -36,17 +36,17 @@ while not edad.isdigit():
 
 # PESO
 
-peso = float(input("Digíte su peso: "))
+peso = float(input("Digíte su peso en Kilogramos: "))
 while not peso:
-    print('Valor incorrecto, digíte nuevamente su peso...')
-    peso = float(input("Digíte su peso: "))
+    print('Valor incorrecto, digíte nuevamente su peso en Kilogramos...')
+    peso = float(input("Digíte su peso en Kilogramos: "))
 
 # ALTURA
 
-altura = float(input("Digíte su Estatura:"))
+altura = float(input("Digíte su Estatura en metros:"))
 while not altura:
-    print('Valor incorrecto, digíte nuevamente su Estatura...')
-    altura = float(input("Digíte su Estatura:"))
+    print('Valor incorrecto, digíte nuevamente su Estatura en metros...')
+    altura = float(input("Digíte su Estatura en metros:"))
 
 # OPERACIONES
 
