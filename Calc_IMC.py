@@ -17,15 +17,15 @@ while not nombre:
     print('El Nombre es Invalido, ingresa nuevamente tus datos...')
     nombre = str(input('Escribe tu Nombre Completo: '))
 
-#apellidop = str(input('Escribe tu Apellido Paterno: '))
-#while not apellidop.isalpha():
-    #print('El Apellido Paterno es Invalido, ingresa nuevamente tus datos...')
-    #apellidop = str(input('Escribe tu Apellido Paterno: '))
+apellidop = str(input('Escribe tu Apellido Paterno: '))
+while not apellidop.isalpha():
+    print('El Apellido Paterno es Invalido, ingresa nuevamente tus datos...')
+    apellidop = str(input('Escribe tu Apellido Paterno: '))
 
-#apellidom = str(input('Escribe tu Apellido Materno: '))
-#while not apellidom.isalpha():
-    #print('El Apellido Materno es Invalido, ingresa nuevamente tus datos...')
-    #apellidom = str(input('Escribe tu Apellido Materno: '))
+apellidom = str(input('Escribe tu Apellido Materno: '))
+while not apellidom.isalpha():
+    print('El Apellido Materno es Invalido, ingresa nuevamente tus datos...')
+    apellidom = str(input('Escribe tu Apellido Materno: '))
 
 # EDAD
 
@@ -67,4 +67,4 @@ elif IMC >= 40 and IMC <= 49.9 :
 else :
     print ("Peso Elevado - Obesidad Grado 4 - Riesgo Extremo: Puedes presentar ataques cardíacos debido a enfermedad cardíaca coronaria, insuficiencia cardíaca y accidente cerebrovascular. Problemas óseos y articulares!!!")
 print()
-print('Gracias por utilizar la Cálculadora de IMC nombre, hasta luego!')
+print('Gracias por utilizar la Cálculadora de IMC, hasta luego!')
